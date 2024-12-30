@@ -1,0 +1,23 @@
+.navbar{
+    background-color: darkblue;
+}
+.navbar-brand{
+    color: white !important;
+}
+.nav-item{
+    margin-right: 20px;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    background-color: red;
+} 
+.banner{
+    background: ;
+    height: 400px;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    color: green;
+}
