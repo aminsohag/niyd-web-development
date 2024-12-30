@@ -1,0 +1,43 @@
+.body{
+    max-width: 90%;
+    margin: 0% auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.list{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+}            
+.side{
+    display: flex;
+}
+.sidebar{
+    width: 40%;
+    text-align: center;
+    background-color: red;
+}
+.content{
+    width: 60%;
+    text-align: center;
+    background-color:peru;
+}
+.foot{
+    text-align: center;
+    background-color: skyblue;
+}
+
+@media screen and (max-width: 576px) {
+    .side{
+        flex-direction:column ;
+    }
+    .sidebar, .content{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+}
