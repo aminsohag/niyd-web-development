@@ -1,0 +1,22 @@
+.demo{
+    background-color: cadetblue;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.menu{
+    width: 500px;;
+    background-color: purple;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}  
+.menu a{
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+    padding: 20px;
+}
+.menu a:hover{
+    background-color: aliceblue;
+}

@@ -1,0 +1,15 @@
+.p1, .p2{
+    width: 400px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color:purple;
+}
+.p3{
+    width: 800px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color:red;
+}
+.p4{
+    display: flex;
+}

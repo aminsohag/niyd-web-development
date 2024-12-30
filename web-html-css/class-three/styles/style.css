@@ -1,0 +1,21 @@
+.para1{
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: yellow;
+    display: inline-block;
+}
+.para2{
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: green;
+    display: inline-block;
+}
+.para3{
+    width: 400px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
