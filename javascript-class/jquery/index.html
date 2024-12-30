@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #resDiv{
+            height: 300px;
+            width: 400px;
+            background-color: red;
+        }
+        /* #styleOne{
+            height: 300px;
+            width: 400px;
+            background-color: yellow;
+        }
+        #styleTwo{
+            height: 300px;
+            width: 400px;
+            background-color: plum;
+        }
+        #styleThree{
+            height: 300px;
+            width: 400px;
+            background-color: black;
+        }
+        #styleDefault{
+            height: 300px;
+            width: 400px;
+            background-color: blue;
+        }*/ 
+    </style>
+</head>
+<body>
+    <h1 id="watchRes"></h1>
+
+    <h1 id="heading">This is heading</h1>
+    <button id="changeTextBtn" type="button">Change Text</button>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <td><input type="text" name="" id="firstName"></td>
+        </tr>
+        <tr>
+            <th>last Name</th>
+            <td><input type="text" name="" id="lastName"></td>
+        </tr>
+        <tr>
+            <th>Full Name</th>
+            <td><input type="text" name="" id="fullName"></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><input type="button" name="" id="fullNameBtn" value="makeFullName"></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <div id="resDiv" class="default-style"></div>
+    <br>
+    <button type="button" id="styleOne">Style One</button>
+    <button type="button" id="styleTwo">Style Two</button>
+    <button type="button" id="styleThree">Style Tree</button>
+    <button type="button" id="styleDefault">Default</button>
+
+    <hr>
+
+
+    <form action="test.html" method="post" id="regForm">
+        <table>
+            <tr>
+                <th>Full Name</th>
+                <td>
+                    <input type="text" name="" id="fulName" required>
+                    <span id="fullNameError"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>Email Address</th>
+                <td>
+                    <input type="text" name="" id="emailAddress">
+                    <span id="emailAddressError"></span>
+            </tr>
+            <tr>
+                <th>Mobile Number</th>
+                <td>
+                    <input type="text" name="" id="mobile">
+                    <span id="mobileError"></span>
+                </td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td>
+                    <input type="text" name="" id="password">
+                    <span id="passwordError"></span>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <input type="submit" name="" id="submitBtn" value="Submit">
+                    <span id="submitBtn"></span>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+    <script src="JS/jquery-3.7.1.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
