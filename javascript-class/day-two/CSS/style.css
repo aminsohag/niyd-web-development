@@ -1,0 +1,17 @@
+.div-one{
+    height: 300px;
+    width: 400px;
+    background-color: red;
+    margin: 40px;
+    border: 20px solid rebeccapurple;
+}
+
+#mainImage{
+    height: 400px;
+    width: 812px;
+}
+
+.small-image{
+    height: 200px;
+    width: 200px;
+}
