@@ -1,0 +1,8 @@
+.card{
+    border: 1px solid purple;
+    transition: transform 0.35 ease;
+}
+.card:hover{
+    transform: translate(-10x);
+    box-shadow: 0 10px 15px black;
+}
