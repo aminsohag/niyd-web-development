@@ -1,0 +1,28 @@
+.divAll{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    //background-color: rebeccapurple;
+}
+.div-1{
+    max-width: 33%;
+    background-color: red;
+}
+.div-2{
+    max-width: 33%;
+    background-color: green;
+}
+.div-3{
+    max-width: 33%;
+    background-color: rgb(0, 255, 55);
+}
+
+// responsive
+
+@media screen and (max-width: 576px) {
+    .div-1,
+    .div-2,
+    .div-3 {
+        max-width: 100%;
+    }
+}
