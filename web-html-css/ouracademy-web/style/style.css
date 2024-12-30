@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner-section{
+    background-color: antiquewhite;
+}
+.banner{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url('../image/girl-1250679_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    /* padding: 100px 0 100px 0; */
+    /* text-align: center; */
+}
+.banner-text{
+   color: white;
+   text-align: center;
+   padding: 60px 0;
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 16px;
+
+}
+.nav-items{
+    display: flex;
+    padding: 20px 40px;
+}
+.banner-btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(98, 98, 249);
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    margin-left: 20px;
+}
+.banner-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+.banner-des{
+    font-size: 16px;
+    font-weight: 600;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
